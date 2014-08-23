@@ -25,6 +25,20 @@ class Breaking
       return 'Undec'
     elsif count == 12
       return 'Dodec'
+    elsif count == 13
+      return 'Tridec'
+    elsif count == 14
+      return 'Tetradec'
+    elsif count == 15
+      return 'Pentadec'
+    elsif count == 20
+      return 'Eicos'
+    elsif count == 30
+      return 'Triacont'
+    elsif count == 40
+      return 'Tetracont'
+    elsif count == 50
+      return 'Pentacont'
     else
       count
     end

@@ -52,5 +52,33 @@ describe Breaking, 'moving chemicals' do
     it 'takes the number of carbons and converts to a straight chain' do
       expect(Breaking.chemicals(12)).to eq 'Dodec'
     end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(13)).to eq 'Tridec'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(14)).to eq 'Tetradec'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(15)).to eq 'Pentadec'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(20)).to eq 'Eicos'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(30)).to eq 'Triacont'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(40)).to eq 'Tetracont'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemicals(50)).to eq 'Pentacont'
+    end
   end
 end
