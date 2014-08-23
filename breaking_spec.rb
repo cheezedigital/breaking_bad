@@ -1,8 +1,9 @@
-require 'rspec'
+require_relative 'spec_helper'
+require_relative 'breaking'
 
-RSpec.configure do |c|
-  c.color = true
-  c.filter_run focus: true
-  c.run_all_when_everything_filtered = true
-  c.formatter = :documentation
+describe Breaking, 'moving chemicals.' do
+
+  describe '.chemicals' do
+    it 'takes '
+  end
 end
