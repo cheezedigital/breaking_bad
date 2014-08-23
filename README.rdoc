@@ -1,2 +1,5 @@
 == Breaking_Bad
-  mixing chemicals. boom! 
+  mixing chemicals. boom!
+
+
+breaking_bad(master)$ rspec breaking_spec.rb

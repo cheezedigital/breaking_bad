@@ -1,6 +1,10 @@
 class Breaking
 
   def self.chemicals(count)
-    1
+    if count == 1
+      return 'Meth'
+    else
+      count
+    end
   end
 end

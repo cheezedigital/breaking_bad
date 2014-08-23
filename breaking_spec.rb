@@ -6,8 +6,12 @@ describe Breaking, 'moving chemicals' do
 
   describe '.chemicals', :focus do
     it 'takes the number of carbons and converts to straight chain' do
-      expect(Breaking.chemicals(1)).to eq 1
+      expect(Breaking.chemicals(1)).to eq Meth
     end
 
+    it 'takes the number of carbons and converts to straight chain' do
+      expect(Breaking.chemicals(2)).to eq Eth
+    end
+    
   end
 end
