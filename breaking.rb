@@ -1,3 +1,6 @@
 class Breaking
 
-end 
+  def self.chemicals(count)
+    1
+  end
+end
