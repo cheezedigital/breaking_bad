@@ -1,5 +1,6 @@
 == Breaking_Bad
   mixing chemicals. boom!
 
+http://en.wikipedia.org/wiki/IUPAC_nomenclature_of_organic_chemistry#Alkanes
 
-breaking_bad(master)$ rspec breaking_spec.rb
+breaking_bad(master)$ rspec breaking_spec.rb - the file path or root path I used for spec'n 
