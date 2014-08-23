@@ -13,16 +13,22 @@ describe Breaking, 'moving chemicals' do
       expect(Breaking.chemicals(2)).to eq 'Eth'
     end
 
-    it 'takes the number of carbons and coverts to a straight chain' do
+    it 'takes the number of carbons and converts to a straight chain' do
       expect(Breaking.chemicals(3)).to eq 'Prop'
     end
 
-    it 'takes the numnber of carbons and converts to a straight chain' do
+    it 'takes the number of carbons and converts to a straight chain' do
       expect(Breaking.chemicals(4)).to eq 'But'
     end
 
     it 'takes the number of carbons and converts to a straight chain' do
       expect(Breaking.chemiclas(5)).to eq 'Pent'
+    end
+
+    it 'takes the number of carbons and converts to a straight chain' do
+      expect(Breaking.chemcials(6)).to eq 'Hex'
+    end
+
 
   end
 end
